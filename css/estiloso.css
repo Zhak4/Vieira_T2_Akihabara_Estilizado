@@ -1,0 +1,12 @@
+h1 {
+    font-family: Mario;
+    color: white;
+    background-image: url(../imagens/imagens_menu/city_pop.png);
+    text-align: center;
+    position: absolute
+}     
+
+@font-face {
+    font-family: Mario;
+    src: url(../fontes_de_texto/TypefaceMario64-ywA93.otf)
+}
