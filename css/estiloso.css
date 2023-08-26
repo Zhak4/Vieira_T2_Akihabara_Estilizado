@@ -1,12 +1,42 @@
-h1 {
-    font-family: Mario;
+body {
+    font-family: Pixel;
     color: white;
-    background-image: url(../imagens/imagens_menu/city_pop.png);
+    background-image: url(../imagens/imagens_menu/japan_pixel_art.gif);
     text-align: center;
-    position: absolute
-}     
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: Pixel;
+    color: white;
+    font-size: 33px;
+
+}
+h2 {
+    text-align: center;
+    text-size-adjust: center;
+}
+
+.box1 {
+    background-color: rgba(0, 0, 0, 0.626);
+    color: white;
+    font-family: Pixel;
+    width: 300px;
+    border: 15px transparent;
+    padding: 50px;
+    margin: 20px;
+}
+
+p {
+    text-align-last: lower left;
+}
 
 @font-face {
-    font-family: Mario;
-    src: url(../fontes_de_texto/TypefaceMario64-ywA93.otf)
+    font-family: Pixel;
+    src: url(../fontes_de_texto/ArcadeClassic-ov2x.ttf)
 }
+
