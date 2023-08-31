@@ -7,7 +7,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: relative fixed;
 }
 
 h1 {
@@ -38,5 +38,37 @@ p {
 @font-face {
     font-family: Pixel;
     src: url(../fontes_de_texto/ArcadeClassic-ov2x.ttf)
+}
+
+.menu {
+    font-family: Pixel;
+    color: white;
+    background-image: url(../imagens/imagens_seleção/selection_menu.gif);
+    text-align: center;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu_2 {
+    font-family: Pixel;
+    color: white;
+    background-image: url(../imagens/imagens_menu/japan_pixel_art.gif);
+    text-align: center;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+img {
+    width: 350px;
+    height: 200px;
+    object-fit: contain;
 }
 
