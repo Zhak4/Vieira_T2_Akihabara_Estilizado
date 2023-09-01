@@ -7,7 +7,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: relative fixed;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -52,23 +52,20 @@ p {
     background-attachment: fixed;
 }
 
-.menu_2 {
-    font-family: Pixel;
-    color: white;
-    background-image: url(../imagens/imagens_menu/japan_pixel_art.gif);
-    text-align: center;
-    height: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    
 
+img {   
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover;
 }
 
-img {
-    width: 350px;
-    height: 200px;
-    object-fit: contain;
+.borda {     
+    border: 7px groove #308C82;   
+    margin: 25px 50px 75px 100px;
 }
 
+.img-hover:hover {   
+     transform-origin: 0 0;    
+     transition: transform .5s, visibility .25s ease-in;    
+     transform: scale(1.5);
+}
