@@ -10,6 +10,11 @@ body {
     background-attachment: fixed;
 }
 
+.bottom {
+    position: fixed;
+    bottom: 0;
+}
+
 h1 {
     font-family: Pixel;
     color: white;
@@ -66,6 +71,38 @@ img {
 
 .img-hover:hover {   
      transform-origin: 0 0;    
-     transition: transform .5s, visibility .25s ease-in;    
+     transition: transform .5s, visibility .5s ease-in;    
      transform: scale(1.5);
+}
+
+.historia-menu {
+    font-family: Pixel;
+    color: white;
+    background-image: url(../imagens/imagens_seleção/history_menu.gif);
+    text-align: center;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.626);
+    width: 880px;
+    height: 780px;
+    border: 15px transparent;
+    padding: 50px;
+    margin: 20px;
+    position: relative;
+    font-family: VT323;
+    color: white;
+    font-size: x-large;
+}
+
+@font-face {
+    font-family: VT323;
+    src: url(../fontes_de_texto/VT323-Regular.ttf);
+
+    
 }
