@@ -89,8 +89,8 @@ img {
 
 .box {
     background-color: rgba(0, 0, 0, 0.626);
-    width: 880px;
-    height: 780px;
+    width: 1090px;
+    height: 1000px;
     border: 15px transparent;
     padding: 50px;
     margin: 20px;
@@ -105,4 +105,29 @@ img {
     src: url(../fontes_de_texto/VT323-Regular.ttf);
 
     
+}
+
+.curiosidades-menu {
+    font-family: Pixel;
+    color: white;
+    background-image: url(../imagens/imagens_seleção/curiosity_menu.gif);
+    text-align: center;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.turismo-menu {
+    font-family: Pixel;
+    color: white;
+    background-image: url(../imagens/imagens_seleção/tourism_menu.gif);
+    text-align: center;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
