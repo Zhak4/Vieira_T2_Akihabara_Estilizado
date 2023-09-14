@@ -87,10 +87,10 @@ img {
     background-attachment: fixed;
 }
 
-.box {
+.caixa{
     background-color: rgba(0, 0, 0, 0.626);
-    width: 1090px;
-    height: 1000px;
+    width: 900px;
+    height: 880px;
     border: 15px transparent;
     padding: 50px;
     margin: 20px;
@@ -98,6 +98,8 @@ img {
     font-family: VT323;
     color: white;
     font-size: x-large;
+    overflow: scroll;
+    text-align: justify;
 }
 
 @font-face {
@@ -130,4 +132,26 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.img-card-1{
+    float: right;
+    padding: 1.1%;
+    height: 55%;
+    width: 50%;
+    position: relative;
+    
+}
+
+
+.img-card-2{
+    float: left;
+    padding: 1.1%;
+    height: 55%;
+    width: 50%;
+    position: relative;
+}
+
+h2 {
+    text-align: center
 }
