@@ -55,6 +55,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 
@@ -67,6 +68,7 @@ img {
 .borda {     
     border: 7px groove #308C82;   
     margin: 25px 50px 75px 100px;
+    box-shadow: 10px 5px 5px  #112322;
 }
 
 .img-hover:hover {   
@@ -87,7 +89,7 @@ img {
     background-attachment: fixed;
 }
 
-.caixa{
+.caixa {
     background-color: rgba(0, 0, 0, 0.626);
     width: 900px;
     height: 880px;
