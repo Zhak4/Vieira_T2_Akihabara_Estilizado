@@ -155,3 +155,15 @@ img {
 h2 {
     text-align: center
 }
+
+.corpo {
+    font-family: Pixel;
+    color: white;
+    background-image: url(../imagens/imagens_menu/zero-dance.gif);
+    text-align: center;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
